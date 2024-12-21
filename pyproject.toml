@@ -20,6 +20,9 @@ websockets = "^13.1"
 debugpy = "^1.6.2"
 replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
 
+[tool.poetry.scripts]
+update-pip = "online_forever:update_pip"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
