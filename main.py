@@ -11,7 +11,7 @@ from keep_alive import keep_alive
 init(autoreset=True)
 
 status = "dnd"  # online/dnd/idle
-custom_status = ""  # Custom Status
+custom_status = "Offline"  # Custom Status
 
 usertoken = os.getenv("TOKEN")
 if not usertoken:
