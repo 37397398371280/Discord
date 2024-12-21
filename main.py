@@ -10,7 +10,7 @@ from keep_alive import keep_alive
 
 init(autoreset=True)
 
-status = "do not disturb"  # online/dnd/idle
+status = "dnd"  # online/dnd/idle
 custom_status = ""  # Custom Status
 
 usertoken = os.getenv("TOKEN")
